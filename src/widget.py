@@ -5,7 +5,7 @@ from datetime import datetime
 from src.masks import DEFAULT_DIVIDER, get_mask_account, get_mask_card_number
 
 ACCOUNT_DATA_TYPES = ["Счет", "Счёт", "счет", "счёт"]
-CARD_DATA_TYPES = ["Maestro", "MasterCard", "Visa Classic", "Visa Platinum", "Visa Gold"]
+CARD_DATA_TYPES = ["Maestro", "MasterCard", "Visa Classic", "Visa Platinum", "Visa Gold",]
 DATA_TYPES = ["account", "card"]
 UNKNOWN_DATA_ERR = "Ошибка. Данные не распознаны."
 DATE_INPUT_FORMAT = "%Y-%m-%dT%H:%M:%S.%f"
